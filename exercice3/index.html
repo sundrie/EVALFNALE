@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="http://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+      <script src="master.js"></script>
+    <title>AJAX CAR</title>
+  </head>
+  <body>
+    <form method="post">
+      <input type="text" name="marque" id="marque" placeholder="Marque">
+      <input type="text" name="modele" id="modele" placeholder="Modèle">
+      <input type="text" name="annee" id="annee" placeholder="Année">
+      <input type="text" name="couleur" id="couleur" placeholder="Couleur">
+      <button type="submit" id="send">Envoyer</button>
+    </form>
+
+    <!-- On affichera le résultat dde la requête ici -->
+    <div id="result"></div>
+
+  </body>
+</html>
